@@ -8,7 +8,24 @@ body {
 h1 {
     font-size: 4em;
     font-weight: 200;
-    margin: 0
+    margin: 0px
+}
+
+h2 {
+    font-size: 1.9em;
+    font-weight: 300;
+    margin: 0px
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    list-style: none
+}
+
+li {
+    margin-top: 0;
+    margin-bottom: 0
 }
 
 .header {
@@ -67,4 +84,135 @@ h1 {
 
 .socials .icon-medium:hover {
     color: #333332
+}
+
+.containerb {
+    margin: auto;
+    width: 1100px
+}
+
+.containerb div {
+    display: inline-block
+}
+
+.container-main {
+    width: 726px;
+    margin-top: 15px
+}
+
+.container-side {
+    vertical-align: top;
+    margin-left: 30px;
+    width: 340px;
+}
+
+.section0 {
+    width: 100%;
+    border-spacing: 0px
+}
+
+.section1 {
+    border: 1px solid #C61A39;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    font-size: 1.9em;
+    font-weight: 400;
+    width: 40%
+}
+
+.section1 p {
+    margin: 5px 0px 0px 0px
+}
+
+.section2 {
+    border-bottom: 1px solid #C61A39;
+    width: 50%
+}
+
+.main-title {
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 100%
+}
+
+.main-title h2 {
+    color: #C61A39;
+    float: left
+}
+
+.main-date {
+    color: #8E6970;
+    font-weight: 400;
+    margin-bottom: 10px;
+    float: right
+}
+
+.main-desc {
+    clear: both;
+    padding-left: 20px
+}
+
+.main-desc h3 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.main-desc p {
+    margin-top: 5px;
+}
+
+.skills {
+    margin-top: 15px;
+    border: 1px solid #C61A39;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #C61A39;
+    width: 100%
+}
+
+.progressbar {
+    border-radius: 5px;
+    background-color: #F693A5;
+    height: 2em;
+    margin-left: 10%;
+    width: 80%;
+    position: relative
+}
+
+.progress2 {
+    width: 40%
+}
+
+.progress3 {
+    width: 60%
+}
+
+.progress5 {
+    border-radius: 5px;
+    width: 100%
+}
+
+.progress2,
+.progress3,
+.progress5{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 2em;
+    background-color: #C61A39;
+    z-index: 1;
+    position: absolute
+}
+
+.progressbar span {
+    position: absolute;
+    z-index: 2;
+    line-height: 2em;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    width: 100%
 }
