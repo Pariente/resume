@@ -30,19 +30,19 @@ li {
 
 .header {
     background-color: #C61A39;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #FFFFFF;
     margin: auto;
-    height: 300px;
-    width: 1100px
+    height: 270px;
+    width: 1020px
 }
 
 .header-left,
 .header-center,
 .header-right {
     float: left;
-    width: 300px;
-    margin: 75px 25px 0px 25px
+    width: 280px;
+    margin: 45px 25px 0px 25px
 }
 
 .header-center {
@@ -51,13 +51,19 @@ li {
     padding-left: 40px
 }
 
+.header-right {
+    float: right}
+
 .picture {
-    background: url('https://pbs.twimg.com/profile_images/378800000845791009/fe00dcdf7b38ec2233e4981080b9368b_400x400.jpeg');
-    background-size: contain;
-    border-radius: 50%;
-    border: 2px solid #FFFFFF;
     margin: auto;
     width: 150px;
+    height: 150px
+}
+
+.profilepic {
+    background-color: #C61A39;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
     height: 150px
 }
 
@@ -88,7 +94,7 @@ li {
 
 .containerb {
     margin: auto;
-    width: 1100px
+    width: 1020px
 }
 
 .containerb div {
@@ -96,14 +102,15 @@ li {
 }
 
 .container-main {
-    width: 726px;
+    width: 660px;
     margin-top: 15px
 }
 
 .container-side {
     vertical-align: top;
+    margin-top: 21px;
     margin-left: 30px;
-    width: 340px;
+    width: 320px;
 }
 
 .section0 {
@@ -137,6 +144,7 @@ li {
 }
 
 .main-title h2 {
+    font-size: 1.7em;
     color: #C61A39;
     float: left
 }
@@ -144,7 +152,7 @@ li {
 .main-date {
     color: #8E6970;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     float: right
 }
 
@@ -160,23 +168,28 @@ li {
 
 .main-desc p {
     margin-top: 5px;
+    margin-bottom: 10px
 }
 
 .skills {
-    margin-top: 15px;
-    border: 1px solid #C61A39;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    font-weight: 400;
-    color: #FFFFFF;
-    text-align: center;
-    background-color: #C61A39;
+    border-bottom: 1px solid #C61A39;
+    margin-bottom: 15px;
     width: 100%
+}
+
+.skills h2 {
+    font-weight: 300;
+    margin-bottom: 1px
+}
+
+.side-container {
+    width: 100%;
+    margin-bottom: 15px
 }
 
 .progressbar {
     border-radius: 5px;
-    background-color: #F693A5;
+    background-color: #A8D1E5;
     height: 2em;
     margin-left: 10%;
     width: 80%;
@@ -202,7 +215,7 @@ li {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 2em;
-    background-color: #C61A39;
+    background-color: #176286;
     z-index: 1;
     position: absolute
 }
